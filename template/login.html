@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Aplikasi</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <section class="login-box">
+            <h2>Login Aplikasi</h2>
+            <form method="post" action="ceklogin.php">
+                <input type="text" placeholder="Username" id="username">
+                <input type="password" placeholder="password" id="password">
+                <input type="submit" value="Login" class="login-button">
+            </form>
+            <div class="bootstrap">
+                <div class="alert alert-info" role="alert">
+                    <h4 class="alert-heading">Info Login</h4>
+                    <p>Gunakan username: admin dan password: admin untuk login sebagai administrator.</p>
+                    <hr>
+                    <p class="mb-0">Gunakan username: user dan password: user untuk login sebagai pengguna biasa.</p>
+                </div>
+        </section>
+    </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
