@@ -45,6 +45,11 @@ input[type=text], input[type=password] {
     border-radius: 15px;
 }
 
+input[type=text]:hover, input[type=password]:hover {
+    margin-top: 250px;
+    transition-duration: 1.5s;
+}
+
 .login-button {
     border-radius: 15px;
 }
